@@ -20,23 +20,23 @@ The purpose of this analysis is to be able to predict if an applicant will be su
 
    The features of the model are not highlighted above. Called:
    
-       * APPLICATION_TYPE
+          * APPLICATION_TYPE
        
-       * AFFILIATION
+          * AFFILIATION
        
-       * CLASSIFICATION
+          * CLASSIFICATION
        
-       *	USE_CASE
+          *	USE_CASE
        
-       *	ORGANIZATION
+          *	ORGANIZATION
        
-       *	STATUS
+          *	STATUS
        
-       *	INCOME_AMT
+          *	INCOME_AMT
        
-       *	SPECIAL_CONSIDERATIONS
+          *	SPECIAL_CONSIDERATIONS
        
-       *	ASK_AMT
+          *	ASK_AMT
     
 * 	What variable(s) are neither targets nor features, and should be removed from the input data?
 
