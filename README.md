@@ -15,6 +15,8 @@ The purpose of this analysis is to be able to predict if an applicant will be su
 *   What variable(s) are considered the target(s) for your model?
 
    The target is highlighted below, called IS_SUCCESSFUL.
+   
+ ![Variables Used](https://github.com/savi09/alphabet_soup/blob/b04a59533fb13a93063ad007c7367e39bff5ee58/Resources/Variable_List.png)
 
 *   What variable(s) are considered to be the features for your model?
 
