@@ -14,43 +14,44 @@ The purpose of this analysis is to be able to predict if an applicant will be su
 * Data Preprocessing 
 *   What variable(s) are considered the target(s) for your model?
 
-The target is highlighted below, called IS_SUCCESSFUL.
+   The target is highlighted below, called IS_SUCCESSFUL.
 
 *   What variable(s) are considered to be the features for your model?
 
-The features of the model are not highlighted above. Called:
-    * APPLICATION_TYPE
-    * AFFILIATION
-    * CLASSIFICATION
-    *	USE_CASE
-    *	ORGANIZATION
-    *	STATUS
-    *	INCOME_AMT
-    *	SPECIAL_CONSIDERATIONS
-    *	ASK_AMT
+   The features of the model are not highlighted above. Called:
+       * APPLICATION_TYPE
+       * AFFILIATION
+       * CLASSIFICATION
+       *	USE_CASE
+       *	ORGANIZATION
+       *	STATUS
+       *	INCOME_AMT
+       *	SPECIAL_CONSIDERATIONS
+       *	ASK_AMT
+    
 * 	What variable(s) are neither targets nor features, and should be removed from the input data?
 
-The following variables are not included in picture above, because they are neither targets nor features and were removed:
-    *	EIN
-    *	NAME
+   The following variables are not included in picture above, because they are neither targets nor features and were removed:
+       *	EIN
+       *	NAME
     
 *	Compiling, Training, and Evaluating the Model 
 * 	How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-I decided to use 
-    *	Two layers,
-    *	80 neurons in the first layer,
-    *	30 neurons in the second layer,
-    *	And ReLU for the activation function.
-These decisions were made for performance reasons. ReLU is computationally simple and effective. I tried using more layers and neurons, but the accuracy decreased, and loss increased. Since it worked opposite than expected,  I reverted to the original layers and neurons.
+   I decided to use 
+       *	Two layers,
+       *	80 neurons in the first layer,
+       *	30 neurons in the second layer,
+       *	And ReLU for the activation function.
+   These decisions were made for performance reasons. ReLU is computationally simple and effective. I tried using more layers and neurons, but the accuracy decreased, and loss increased. Since it worked opposite than expected,  I reverted to the original layers and neurons.
 
 *	Were you able to achieve the target model performance?
 
-I was not able to meet the target model performance.
+   I was not able to meet the target model performance.
 
 *	What steps did you take to try and increase model performance?
 
-To try to increase model performance, I increased the number of neurons, the number of layers and removed SPECIAL_CONSIDERATIONS. These steps decreased the percentage of accuracy.
+   To try to increase model performance, I increased the number of neurons, the number of layers and removed SPECIAL_CONSIDERATIONS. These steps decreased the percentage of accuracy.
 
 ## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem and explain your recommendation.
 
@@ -70,6 +71,8 @@ Since I couldn’t achieve the target model performance, I suggest using a diffe
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
+# Instructions
+
 Deep Learning Homework: Charity Funding Predictor
 
 ## Background
